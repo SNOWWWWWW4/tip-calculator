@@ -1,3 +1,18 @@
+# Liam Garcia
+
+# Date 4/4/2024
+
+# Name: Tip-Calculator
+
+# Description: Will calculate the tip per person and the total tip per person. All based on the bill amount, tip percent, and amount of people. 
+
+# Peer Reviewed by :
+
+# Peer Comment:
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
