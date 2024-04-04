@@ -6,9 +6,9 @@
 
 # Description: Will calculate the tip per person and the total tip per person. All based on the bill amount, tip percent, and amount of people. 
 
-# Peer Reviewed by :
+# Peer Reviewed by : Jerrod Packard
 
-# Peer Comment:
+# Peer Comment: On desktop, I think there is too much space at the top. The white container holding all of the input fields and buttons also appears to be too wide. You can add additional horizontal margin to decrease the width there. I believe there should be about 260 pixels of margin on either side of the container. The default value on the bill input field should just be 0 according to the prototype. I like how your tip percentage select buttons stay highlighted after they are clicked, that's a nice touch. The reset button should change colors to become active when there are values that can be reset. Everything functions as it should. I think the only missing feature is the warning/error message on the people input field when the value is 0. The mobile version looks great. Overall, this is a solid effort!
 
 
 
