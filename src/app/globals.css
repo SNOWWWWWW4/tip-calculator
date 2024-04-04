@@ -1,33 +1,118 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  gap: 4;
+  place-items: center;
+  background: hsl(185, 41%, 84%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+/* styling guide */
+.strongCyan {
+  background: hsl(172, 67%, 45%);
+}
+
+.veryDCyan {
+  background: hsl(183, 100%, 15%);
+}
+
+.darkGC {
+  background: hsl(186, 14%, 43%);
+}
+
+.grayCyan {
+  background: hsl(184, 14%, 56%);
+}
+
+.lightGC {
+  background: hsl(185, 41%, 84%);
+}
+
+.veryLightGC {
+  background: hsl(189, 41%, 97%);
+}
+
+.white {
+  background: hsl(0, 0%, 100%);
+}
+
+
+/* Custom classes */
+
+.bg {
+  background: hsl(185, 41%, 84%);
+}
+
+.unit {
+  color:hsl(185, 41%, 84%);
+  font-size: .5rem;
+  line-height: .5rem;
+}
+
+.display-amt {
+  font-size: 2rem;
+  color:hsl(172, 67%, 45%);
+}
+
+.grayTxt {
+  color: hsl(186, 14%, 43%);
+  font-size: 1rem;
+}
+
+.error{
+  color:red;
+  font-size: 1rem;
+}
+
+.customShadow {
+  box-shadow: 0 4rem 5rem hsla(172, 67%, 45%, 0.271);
+}
+
+.buttonT1 {
+  background: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+}
+
+.buttonT2 {
+  background: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  color: hsl(186, 14%, 43%);
+  font-size: 24px;
+
+}
+
+.buttonT1:hover {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.buttonT1.active {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.rstBtn {
+  background: hsla(172, 67%, 45%, 0.45);
+  color: hsl(183, 100%, 15%);
+}
+
+.rstBtn:hover {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.errorOutline {
+  outline: 2px solid red;
+}
+
+.field:hover {
+  outline:hsl(172, 67%, 45%);
 }
